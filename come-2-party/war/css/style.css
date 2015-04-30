@@ -1,0 +1,29 @@
+section.main{
+	background-image:url('background.png');
+	min-height: 100%;
+	color: white;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size: cover; 
+
+}
+
+section.main div {
+	margin-top: 20%;
+	color: rgb(48, 63, 56);
+	display: inline-block;
+	opacity: 10%;
+
+}
+
+section.third div {
+	margin-top: 128px;
+	color: rgb(48, 63, 56);
+
+}
+
+footer {
+	background-color: #27272b;
+	color: white;
+	min-height: 20%;
+}

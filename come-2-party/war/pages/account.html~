@@ -1,0 +1,51 @@
+<section class="account">
+    <div id="content">
+		<br>
+		<h2>{{title}}</h2>
+		</br>
+	
+		<form id="form" name="myform" class="form form-horizontal" ng-controller="accountCtrl" novalidate>
+					
+			<h2>Presentation<h2>		
+				
+			<div class="form-group">		
+				<label class="control-label col-sm-4">Surname : </label>
+				<div class="col-sm-5">
+					<input type="text" name="Surname" class="form-control" placeholder="Something fun" />
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-4">Birthday : </label>
+				<div class="col-sm-4">
+					<input type="date" format="short" name="birthdaydate" class="form-control" />
+				</div>
+			</div>
+			
+			<h2>Where do you live ?<h2>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-4">Town : </label>
+				<div class="col-sm-5">
+					<input type="text" name="town" class="form-control" placeholder="Nantes" />
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-4">Street : </label>
+				<div class="col-sm-5">
+					<input type="text" name="street" class="form-control" placeholder="Rue de la fac" />
+				</div>
+			</div>
+				
+			
+				
+			<div class="form-group">
+				<br/>
+				<div class="col-sm-offset-4 col-sm-6">
+					<button class="btn btn-success" type="submit" ng-disabled="userForm.$invalid">Save</button> 
+					<a class="btn btn-danger" href="#/home" ng-disabled="userForm.$invalid">Cancel</a> 
+				</div>
+		</form> 
+	</div>
+</section>

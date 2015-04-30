@@ -1,0 +1,3 @@
+# Module come_2_party
+# RPC service class, partial path of RPC policy file
+come2party.client.GreetingService, 7E598A40DA3229CDF69B51281F397109.gwt.rpc

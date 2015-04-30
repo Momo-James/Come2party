@@ -1,0 +1,2 @@
+serviceClass: come2party.client.GreetingService
+path: 7E598A40DA3229CDF69B51281F397109.gwt.rpc
